@@ -34,9 +34,9 @@ def run_trial(n):
     return n_circle / n_bottom_left
 
 
-estimates = []
 n = 1000000
 n_trials = 1000
+estimates = []
 for _ in range(n_trials):
     estimate = run_trial(n)
     print(estimate)

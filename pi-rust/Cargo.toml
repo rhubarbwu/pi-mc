@@ -1,0 +1,13 @@
+
+[package]
+name = "pi-rust"
+version = "0.1.0"
+authors = ["Robert Wu <rupert.wu@mail.utoronto.ca>"]
+edition = "2018"
+description = "A Rust implementation of Siamese Neural Networks for One-shot Image Recognition for benchmarking performance and results."
+readme = "README.md"
+categories = ["science"]
+license = "MIT"
+
+[dependencies]
+rand = "0.8.3"
